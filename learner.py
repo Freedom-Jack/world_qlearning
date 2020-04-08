@@ -15,7 +15,7 @@ q_function = {}
 # Parameters
 discount_rate = 0.5
 alpha = 1
-randomly_move_rate = 0.1:wq
+randomly_move_rate = 0.1
 
 # Basic setup for the Q function
 # Number of states is same as the grids in the world
