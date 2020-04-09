@@ -101,6 +101,7 @@ def run():
         # Pick the right action
         s = world.player
         max_act, max_val = best_q(s)
+        # Take best action with certain percentage
         if random.random() < randomly_move_rate:
             (s, a, r, s2) = do_action(random.choice(actions))
         else:
