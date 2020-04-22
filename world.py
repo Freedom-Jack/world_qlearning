@@ -105,6 +105,8 @@ master.bind("<Left>", call_left)
 def restart_game():
     global player, score, me, restart
     player = start_pos
+    # Randomized start location
+    # player = (random.randint(0, x), random.randint(0, y))
     score = 1
     restart = False
     board.coords(me,

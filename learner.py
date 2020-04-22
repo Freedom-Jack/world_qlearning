@@ -13,7 +13,7 @@ states = []
 q_function = {}
 
 # Parameters
-discount_rate = 0.5
+discount_rate = 0.2
 alpha = 1
 randomly_move_rate = 0.1
 
@@ -122,7 +122,7 @@ def run():
         alpha = pow(t, -0.1)
 
         # Modify the refresh rate of the game
-        time.sleep(0.05)
+        time.sleep(0.01)
 
 
 t = threading.Thread(target=run)
