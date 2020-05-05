@@ -12,7 +12,7 @@ start_pos = (0, y - 1)     # Initial position starts at the bottom left corner
 goals = [(x - 1, 1, "red", -1), (x - 1, 0, "green", 1)]     # Goal states' coordinates
 # Randomly generated obstacles' coordinates
 obstacles = []
-for numberO in range(random.randint(int(x * y / 8), int(x * y / 2))):
+for numberO in range(random.randint(int(x * y / 8), int(x * y / 4))):
     generated_pos = (random.randint(0, x), random.randint(0, y))
     restricted_pos = [(0, y - 1), (x - 1, 1), (x - 1, 0)]
     if generated_pos not in obstacles and generated_pos not in restricted_pos:
