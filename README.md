@@ -9,8 +9,9 @@ The world setup is a **M×N** grids with 3 different kinds of stages: **Start**,
 ## Q-learning
 **Q-learning** is an active reinforcement learning (RL) technique. Reinforcement learning contains two important components: **exploration** and **exploitation**. **Exploration** means that the agent is interacting with the environment and try to find the best policy; **Exploitation** means that the agent is trying to improve the current recorded best policy. **Q-learning** is an active RL algorithm, which is attempt to find the (local) optimum policy if possible. It is driven by the rewards it received, and updates the rewards using the following rules:
 
-<img src="https://render.githubusercontent.com/render/math?math=Q(s, a) ← Q(s, a) + α(R(s) + γ maxa Q(s, a) − Q(s, a))
-">
+[formula image]
+
+For more information about **Q-learning**, the wikipedia page is a good way to start: [Q-learning wikipedia](https://en.wikipedia.org/wiki/Q-learning).
 
 ## Instructions
     ##Make sure both learner.py and world.py is under the same directory
