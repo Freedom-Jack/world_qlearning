@@ -4,7 +4,7 @@ An attempt on solving the (m, n) world game by exploration and exploitation, usi
 ## Game description
 The world setup is a **M×N** grids with 3 different kinds of stages: **Start**,  **Terminate** and **Obstacles**. **Start** denotes the starting location of the agent; **Terminate** denotes the destination of the agent; and the **Obstacles** are the blocks which won't allow to be entered. The goal is to try to get to the best rewarded Terminate state with as maximal rewards as possible.
 
-<img src="images/map.png" align="center" width="325">
+<img align="center" src="images/map.png" width="325">
 
 ## Q-learning
 **Q-learning** is an active reinforcement learning (RL) technique. Reinforcement learning contains two important components: **exploration** and **exploitation**. **Exploration** means that the agent is interacting with the environment and try to find the best policy; **Exploitation** means that the agent is trying to improve the current recorded best policy. **Q-learning** is an active RL algorithm, which is attempt to find the (local) optimum policy if possible. It is driven by the rewards it received, and updates the rewards using the following rules:
