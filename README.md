@@ -12,6 +12,8 @@ The world setup is a **M×N** grids with 3 different kinds of stages: **Start**,
 [formula image]
 
 ## Instructions
+    ##Make sure both learner.py and world.py is under the same directory
+    python learner.py
 
 ## Testing
 **Parameter Testing**: Q-learning is an active reinforcement learning algorithm - it strives to learn an optimal policy of a given environment. In the 𝑚×𝑛 worldgame, we have no control over the world’s setup (obstacles, rewards etc), but we can test different parameters to note differences in performance.
