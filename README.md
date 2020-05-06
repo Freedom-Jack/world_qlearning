@@ -1,8 +1,8 @@
-# "M$\times$N World Game" with Q-learning  
+# "M×N World Game" with Q-learning  
 An attempt on solving the (m, n) world game by exploration and exploitation, using an **active reinforcement learning algorithm**: **Q-learning**.
 
 ## Game description
-The world setup is a **M$\times$N** grids with 3 different kinds of stages: **Start**,  **Terminate** and **Obstacles**. **Start** denotes the starting location of the agent; **Terminate** denotes the destination of the agent; and the **Obstacles** are the blocks which won't allow to be entered. The goal is to try to get to the best rewarded Terminate state with as maximal rewards as possible.
+The world setup is a **M×N** grids with 3 different kinds of stages: **Start**,  **Terminate** and **Obstacles**. **Start** denotes the starting location of the agent; **Terminate** denotes the destination of the agent; and the **Obstacles** are the blocks which won't allow to be entered. The goal is to try to get to the best rewarded Terminate state with as maximal rewards as possible.
 
 [map image]
 
