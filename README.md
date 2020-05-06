@@ -18,7 +18,7 @@ The world setup is a **M×N** grids with 3 different kinds of stages: **Start**,
 For more information about **Q-learning**, the wikipedia page is a good way to start: [Q-learning wikipedia](https://en.wikipedia.org/wiki/Q-learning).
 
 ## Instructions
-    ##Make sure both learner.py and world.py is under the same directory
+    # Make sure both learner.py and world.py is under the same directory
     python learner.py
 
 ## Testing
